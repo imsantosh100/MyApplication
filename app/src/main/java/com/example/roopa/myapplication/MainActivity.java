@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity
         startActivity(i);
     }
 
-// dummy comment for pulling new project with clone option to  studio
+
 
 
 
