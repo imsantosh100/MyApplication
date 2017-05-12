@@ -51,11 +51,13 @@ public class MainActivity extends AppCompatActivity {
         i.setAction("implicit.intent.example");
         i.addCategory(Intent.CATEGORY_DEFAULT);
         startActivity(i);
-    }
-
+   
     public void test() {
         boolean flag = true;
     }
+    // SIMPLE COMMIT
+
+
 
 
 }
