@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // this is a commit
+
         b1 = (Button) findViewById(R.id.btn_start);
         b2 = (Button) findViewById(R.id.btn_stop);
         b3 = (Button) findViewById(R.id.button2);
