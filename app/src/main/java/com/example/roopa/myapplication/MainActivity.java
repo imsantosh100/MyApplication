@@ -12,8 +12,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity
-{
+public class MainActivity extends AppCompatActivity {
 
     Button b1, b2, b3;
     TextView textView;
@@ -30,9 +29,9 @@ public class MainActivity extends AppCompatActivity
         b2 = (Button) findViewById(R.id.btn_stop);
         b3 = (Button) findViewById(R.id.button2);
 
-        textView = (TextView)findViewById(R.id.text1);
+        textView = (TextView) findViewById(R.id.text1);
 
-        i = new Intent(getBaseContext(),MyService.class);
+        i = new Intent(getBaseContext(), MyService.class);
 
     }
 
@@ -40,22 +39,24 @@ public class MainActivity extends AppCompatActivity
 
         startService(i);
 
-   }
+    }
 
     public void stop_service(View v) {
         stopService(i);
     }
 
-    public void start_bound(View v)
-    {
-       // startActivity(new Intent(this,TestBound.class));
+    public void start_bound(View v) {
+        // startActivity(new Intent(this,TestBound.class));
         Intent i = new Intent();
         i.setAction("implicit.intent.example");
         i.addCategory(Intent.CATEGORY_DEFAULT);
         startActivity(i);
+   
+    public void test() {
+        boolean flag = true;
     }
-
     // SIMPLE COMMIT
+
 
 
 
